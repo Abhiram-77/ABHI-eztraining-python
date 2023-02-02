@@ -1,0 +1,82 @@
+DAY-3:CONTENT
+
+List:   L=[1,5,0,9,6.6,"hello"]
+	print(L[:4])
+	print(L[0:])
+	print(L[5])
+output: [1, 5, 0, 9]
+	[1, 5, 0, 9, 6.6, 'hello']
+	hello
+
+append():add an element to the end of the list--->L.append(4)
+extend():add all elements of a list to the another list--->L.extend([5,6])
+insert():insert an item at the defined index
+remove():remove a item in the defined list
+pop():pop an item out of the list
+clear():clear the list
+index():gives the index of the required item
+count():counts the number of items in the list
+sort():sorts all the items in the list
+reverse():reverses the order of elements in list
+copy():copy the items of the list
+
+>>create a list with 10 items and print the elements one by one
+l=[1,2,3,4,5,6,7,8,9,10]
+for i in range(len(l)):
+    print(l[i])
+>>create a list with 5 float number ,find and display sum and average of the list
+>>after creating a list with 6 elements from the user,extract only even numbers and print
+
+>>>get a list of numbers input,return the product if the product less than 750 else return sum 
+       n=list(map(int,input("enter:").split()))
+	print(n)
+	x=1
+	y=0
+	for i in n:
+		x=x*i		
+		y=y+i
+	if x<=750:
+		print("prod=",x)
+	else:
+		print("sum=",y)
+sets:
+	s.add(element)
+	s.update([20,40])
+ 	s.discard(element)
+	s.remove()------gets error if the element is not present in the defined set
+
+s1={1,2,3}
+s2={4,5,6,1,2}
+s1|s2 UNION .>>s1.union(s2)
+>>>{1,2,3,4,5,6}
+s1&s2--intersection>>s1.intersection(s2)
+>>>{1,2}
+s1-s2--->difference>>s1.difference(s2)
+>>>{4,5,6}
+
+
+>>>s={1,2,3}
+s1={1,2,3,4}
+s2=s1.issuperset(s)
+print(s2)
+--->True
+
+tuple:()
+it is ordered,unchangable,can't include items
+and cant fetch with[index]
+t={4,4,4,43,1,54,779,32}
+t.count(4)
+>>>3
+t.index(4)
+>>>0
+
+dictionary:
+dictionary contains elements with two units i.e.,keys and values
+keys must be unique
+d.items()
+d.update()
+d.pop()
+d.popitem()
+d.setdefault()
+
+	
