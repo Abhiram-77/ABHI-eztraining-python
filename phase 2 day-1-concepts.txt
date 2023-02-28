@@ -1,0 +1,20 @@
+FUNCTONS:
+1. lambda functions - it's called as anonymous function when we want to use function concept alone without using function name , there we apply concept of lambda function.
+
+FOUR PILLARS OF OOPS:
+1. Abstraction - hiding the implementation part,showing only what is requied for the users is called as abstraction.
+				example:exe file
+             		 we can make class or method as abstract,opposite to abstract is concrete.         
+2. Encapsulation - encapsulation is of 3 types
+				  1. public- one class info can be accessed by any other classes -low level data protection.
+                                        2. private - can used where it is declared in inheritance class - medium level data protection.
+                                        3. protected - can be accessed only where it got declared--whichever class inherited fron this class there also we can use - high level data protection.
+3. Inheritance - base/parent class and derived/child class-derived class will inherit properties of parent class
+                       Types of inheritance:
+                                  1. single inheritance - parent->child
+                                  2. multiple inheritance - mom,dad->child
+                                  3. multi-level inheritance
+                                  4. heirarical inheritance
+                                  5. hybrid inheritance
+4. Polymorphism - 
+
